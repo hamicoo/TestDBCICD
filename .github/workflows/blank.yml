@@ -8,5 +8,5 @@ jobs:
     runs-on: [self-hosted, HAMICOO]
     steps:
       - name: Run sample.ps1 from local machine
-        run: C:\Users\hamic\OneDrive\Desktop\myscripts\sample.ps1
+        run: C:\Users\hamic\OneDrive\Desktop\myscripts\sample.bat
         shell: pwsh
