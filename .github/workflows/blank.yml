@@ -7,5 +7,6 @@ jobs:
   run-sample:
     runs-on: [self-hosted, HAMICOO]
     steps:
-      - name: Run sample.ps1 from local machine
-        run: '& "C:\Users\hamic\OneDrive\Desktop\mssqlcicd\mybat.bat'
+      - name: Run mybat.bat via PowerShell
+        run: '& "C:\Users\hamic\OneDrive\Desktop\mssqlcicd\mybat.bat"'
+        shell: powershell
