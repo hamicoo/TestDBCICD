@@ -1,7 +1,10 @@
 name: Run Sample Script
 
+
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - master   # trigger whenever code is pushed to master
 
 jobs:
   run-sample:
