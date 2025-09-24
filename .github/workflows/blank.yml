@@ -8,5 +8,4 @@ jobs:
     runs-on: [self-hosted, HAMICOO]
     steps:
       - name: Run sample.ps1 from local machine
-        run: '& "C:\Users\hamic\OneDrive\Desktop\myscript\sample.ps1"'
-        shell: powershell
+        run: '& "C:\Users\hamic\OneDrive\Desktop\mssqlcicd\mybat.bat'
