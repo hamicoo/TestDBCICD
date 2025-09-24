@@ -7,7 +7,7 @@ GO
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE [dbo].[SP2]
+CREATE PROCEDURE [dbo].[SP3]
 
 AS
 BEGIN
